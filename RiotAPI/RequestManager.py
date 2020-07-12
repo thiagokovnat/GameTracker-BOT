@@ -3,7 +3,7 @@ import cassiopeia as cass
 from cassiopeia import Summoner, Champion
 import pandas as pd
 
-validRegions = ["LAN","LAS","BR","EUW","EUE"]
+validRegions = ["LAN","LAS","BR","EUW","EUE", "KR", "JP", "NA"]
 
 class Jugador():
 

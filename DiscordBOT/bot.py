@@ -6,7 +6,7 @@ from RiotAPI import RequestManager as RM
 
 
 client = commands.Bot(command_prefix = "!")
-token = "NzMxOTUxNjQ4Njg3MjU5NjY5.Xwtk-Q.dnZ0jGIyzrz20eDr9Mo-CsQSMZs"
+token = Discord-TOKEN
 guild = "RSwrcb"
 riotapi = RM.PlayerTracker("LAS", TOKEN)
 

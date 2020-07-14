@@ -8,7 +8,7 @@ from RiotAPI import RequestManager as RM
 client = commands.Bot(command_prefix = "!")
 token = "NzMxOTUxNjQ4Njg3MjU5NjY5.Xwtk-Q.dnZ0jGIyzrz20eDr9Mo-CsQSMZs"
 guild = "RSwrcb"
-riotapi = RM.PlayerTracker("LAS", "RGAPI-67e3b4c2-e609-44ea-820f-d7181d1db4f9")
+riotapi = RM.PlayerTracker("LAS", TOKEN)
 
 
 @client.event

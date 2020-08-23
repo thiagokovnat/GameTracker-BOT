@@ -6,9 +6,11 @@ from RiotAPI import RequestManager as RM
 
 
 client = commands.Bot(command_prefix = "!")
-token = "key"
+
+token = Discord-TOKEN
 guild = "RSwrcb"
-riotapi = RM.PlayerTracker("LAS", "KEY")
+riotapi = RM.PlayerTracker("LAS", TOKEN)
+
 
 
 @client.event
@@ -76,3 +78,4 @@ async def getRankedFlex(ctx, *args):
 
 
 client.run(token)
+

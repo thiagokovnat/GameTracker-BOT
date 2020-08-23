@@ -17,6 +17,10 @@ class Jugador():
 		self.hotstreak = hotstreak
 		self.championMasteries = []
 
+	def getTopMasteries(self):
+
+		return [x for x in self.championMasteries[0:3]] if len(self.championMasteries) > 2 else [x for x in self.championMasteries[0:2]]
+
 	def setChampionMasteries(self, champions):
 		self.championMasteries = [x.champion.name for x in champions]
 
@@ -99,4 +103,5 @@ class PlayerTracker():
 		player.setChampionMasteries(masteries)
 
 		return player
+
 

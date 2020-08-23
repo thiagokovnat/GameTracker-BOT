@@ -1,7 +1,7 @@
 from RiotAPI import RequestManager as RM
 
 
-test = RM.PlayerTracker("LAS", "RGAPI-5945737f-9778-4726-a6a2-a84575666385")
+test = RM.PlayerTracker("LAS", " RGAPI-67e3b4c2-e609-44ea-820f-d7181d1db4f9")
 
 name = str(input("Ingrese un jugador:"))
 player = test.RankedStats(name, "solo")
